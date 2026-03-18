@@ -1,0 +1,23 @@
+# Ignore Node dependencies
+node_modules/
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
