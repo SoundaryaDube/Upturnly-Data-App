@@ -5,7 +5,7 @@ import FileUpload from './components/FileUpload';
 import FilterSidebar from './components/FilterSidebar';
 import DataGrid from './components/DataGrid';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://upturnly-data-app-529304626037.europe-west1.run.app';
 
 function App() {
   const [activeTab, setActiveTab] = useState('data'); // 'upload' | 'data'
